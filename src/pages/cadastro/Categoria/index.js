@@ -6,6 +6,10 @@ function CadastroCategoria() {
   return (
     <PageDefault>
       <h1>Cadastro do Video</h1>
+      <form action="">
+        <label>Nome da categoria</label>
+        <input type="text"/>
+      </form>
       
       <Link to="/">
         Ir para home
