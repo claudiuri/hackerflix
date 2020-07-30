@@ -1,29 +1,30 @@
-import React, { useState } from 'react';
+/* eslint-disable react/no-array-index-key */
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
+import Button from '../../../components/Button';
 
 function CadastroCategoria() {
-  
   const valoresIniciais = {
-    nome: '',
+    titulo: '',
     descricao: '',
     cor: '',
-  }
+  };
   const [categorias, setCategorias] = useState([]);
-  const [categoria, setCategoria] = useState(valoresIniciais);
+  const [newCategoria, setNewCategoria] = useState(valoresIniciais);
 
   function setValue(chave, valor) {
-    setCategoria({
-      ...categoria,
+    setNewCategoria({
+      ...newCategoria,
       [chave]: valor,
-    })
+    });
   }
 
   function handleChange(e) {
     setValue(
       e.target.getAttribute('name'),
-      e.target.value
+      e.target.value,
     );
   }
 
@@ -31,31 +32,52 @@ function CadastroCategoria() {
     e.preventDefault();
     setCategorias([
       ...categorias,
-      categoria
+      newCategoria,
     ]);
 
-    setCategoria(valoresIniciais)
+    setNewCategoria(valoresIniciais);
   }
+
+  // ============
+
+  useEffect(() => {
+    if (window.location.href.includes('localhost')) {
+      const URL = 'http://localhost:8080/categorias';
+      fetch(URL)
+        .then(async (respostaDoServer) => {
+          if (respostaDoServer.ok) {
+            const resposta = await respostaDoServer.json();
+            setCategorias(resposta);
+            return;
+          }
+          throw new Error('Não foi possível pegar os dados');
+        });
+    }
+  }, []);
 
   return (
     <PageDefault>
-      <h1>Cadastro de Categoria: {categoria.nome}</h1>
+      <h1>
+        Cadastro de Categoria:
+        {' '}
+        {newCategoria.titulo}
+      </h1>
 
       <form onSubmit={handleSubmit}>
 
         <FormField
           label="Nome da Categoria"
           type="text"
-          name="nome"
-          value={categoria.nome}
+          name="titulo"
+          value={newCategoria.titulo}
           onChange={handleChange}
         />
 
         <FormField
           label="Descrição"
-          type="text"
+          type="textArea"
           name="descricao"
-          value={categoria.descricao}
+          value={newCategoria.descricao}
           onChange={handleChange}
         />
 
@@ -63,29 +85,27 @@ function CadastroCategoria() {
           label="Cor"
           type="color"
           name="cor"
-          value={categoria.cor}
+          value={newCategoria.cor}
           onChange={handleChange}
         />
-        <button>
+        <Button>
           Cadastrar
-        </button>
+        </Button>
       </form>
 
       <ul>
-        {categorias.map((categoria, indice) => {
-          return (
-            <li key={`${categoria}${indice}`}>
-              {categoria.nome}
-            </li>
-          )
-        })}
+        {categorias.map((categoria, indice) => (
+          <li key={`${categoria}${indice}`}>
+            {categoria.titulo}
+          </li>
+        ))}
       </ul>
 
       <Link to="/">
         Ir para home
       </Link>
     </PageDefault>
-  )
+  );
 }
 
 export default CadastroCategoria;
