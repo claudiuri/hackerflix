@@ -14,7 +14,7 @@ function Home() {
       <BannerMain 
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa! "}
+        videoDescription={"Mas afinal, o que é uma Single-Page Application? Você sabe a melhor forma e os melhores frameworks para construí-la? Assista as dicas e o bate-papo da Roberta Arcoverde e do Maurício Linhares no vídeo! "}
       />
       
       <Carousel 
@@ -36,10 +36,6 @@ function Home() {
 
       <Carousel 
         category={dadosIniciais.categorias[4]}
-      />
-
-      <Carousel 
-        category={dadosIniciais.categorias[5]}
       />
 
       <Footer />

@@ -1,183 +1,293 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
+      "titulo": "JavaScript",
       "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "cor": "#DBD61D",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Curso gratuito de javascript",
+        "url": "https://www.youtube.com/watch?v=BXqUH86F-kA&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&t=0s"
       },
       "videos": [
         {
-          "titulo": "O que faz uma desenvolvedora front-end? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw"
+          "titulo": "O que é uma Single-Page Application? (SPA) #HipstersPontoTube",
+          "url": "https://youtu.be/opxYpCKzlLk"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "O que o JavaScript é capaz de fazer? - Curso JavaScript #01",
+          "url": "https://youtu.be/Ptbk2af68e8?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "JavaScript: como chegamos até aqui? - Curso JavaScript #02",
+          "url": "https://youtu.be/rUTKomc2gG8?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Dando os primeiros passos - Curso JavaScript #03",
+          "url": "https://youtu.be/FdePtO5JSd0?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "Criando o seu primeiro script - Curso JavaScript #04",
+          "url": "https://youtu.be/OmmJBfcMJA8?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Variáveis e Tipos Primitivos - Curso JavaScript #05",
+          "url": "https://youtu.be/Vbabsye7mWo?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Tratamento de dados - Curso JavaScript #06",
+          "url": "https://youtu.be/OJgu_KCCUSY?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+          "titulo": "Operadores (Parte1) - Curso JavaScript #07",
+          "url": "https://youtu.be/hZG9ODUdxHo?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
+        },
+        {
+          "titulo": "Operadores (Parte 2) - Curso JavaScript #08",
+          "url": "https://youtu.be/BP63NhITvao?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
+        },
+        {
+          "titulo": "Introdução ao DOM - Curso JavaScript #09",
+          "url": "https://youtu.be/WWZX8RWLxIk?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
+        },
+        {
+          "titulo": "Eventos DOM - Curso JavaScript #10",
+          "url": "https://youtu.be/wWnBB-mZIvY?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
+        },
+        {
+          "titulo": "Condições (Parte 1) - Curso JavaScript #11",
+          "url": "https://youtu.be/cOdG4eACN2A?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
+        },
+        {
+          "titulo": "Condições (Parte 2) - Curso JavaScript #12",
+          "url": "https://youtu.be/EEStcIe8rAM?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
+        },
+        {
+          "titulo": "Repetições (Parte 1) - Curso JavaScript #13",
+          "url": "https://youtu.be/5rZqYPKIwkY?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
+        },
+        {
+          "titulo": "Repetições (Parte 2) - Curso JavaScript #14",
+          "url": "https://youtu.be/eX-lkN_Zahc?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
+        },
+        {
+          "titulo": "Variáveis Compostas - Curso JavaScript #15",
+          "url": "https://youtu.be/XdkW62tkAgU?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
+        },
+        {
+          "titulo": "Funções - Curso JavaScript #16",
+          "url": "https://youtu.be/mc3TKp2XzhI?list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1"
+        }         
       ]
     },
     {
-      "titulo": "Back End",
-      "cor": "#00C86F",
+      "titulo": "NodeJS",
+      "cor": "#A205A8",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Cursos gratuito de NodeJS",
+        "url": "https://www.youtube.com/watch?v=wDWdqlYxfcw&list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "Criando APIs com NodeJs - Aula 1: Instalação Node, NPM e VS Code",
+          "url": "https://youtu.be/wDWdqlYxfcw?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "Criando APIs com NodeJs - Aula 2: npm init e instalação dos pacotes",
+          "url": "https://youtu.be/b-YTQFdfemk?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Criando APIs com NodeJs - Aula 3: Criando um servidor Web",
+          "url": "https://youtu.be/av_TA0y_dss?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Criando APIs com NodeJs - Aula 4: Normalizando a porta",
+          "url": "https://youtu.be/Z2g1b6d7ID8?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Criando APIs com NodeJs - Aula 5: Gerenciando Erros do Servidor",
+          "url": "https://youtu.be/egV9KattCvY?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn"
+        }, 
+        {
+          "titulo": "Criando APIs com NodeJs - Aula 6: Iniciando o Debug",
+          "url": "https://youtu.be/wqmZT3LMtGk?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn"
+        }, 
+        {
+          "titulo": "Criando APIs com NodeJs - Aula 7: Separando o Servidor",
+          "url": "https://youtu.be/znDGnSf4LPI?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn"
+        }, 
+        {
+          "titulo": "Criando APIs com NodeJs - Aula 8: Configurando o NPM Start",
+          "url": "https://youtu.be/czNxPXHr2Oo?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn"
+        }, 
+        {
+          "titulo": "Criando APIs com NodeJs - Aula 9: Nodemon",
+          "url": "https://youtu.be/IZitZWz4TPQ?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn"
+        }, 
+        {
+          "titulo": "Criando APIs com NodeJs - Aula 10: CRUD REST",
+          "url": "https://youtu.be/FXQ3ZZh5jh4?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn"
+        }, 
+        {
+          "titulo": "Criando APIs com NodeJs - Aula 11: Rotas",
+          "url": "https://youtu.be/Bw-ux9fW1y8?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn"
+        }, 
+        {
+          "titulo": "Criando APIs com NodeJs - Aula 12: Controllers",
+          "url": "https://youtu.be/zMt2gwkK3xs?list=PLHlHvK2lnJndvvycjBqQAbgEDqXxKLoqn"
         }
       ]
     },
     {
-      "titulo": "Data Science e Inteligência Artificial",
-      "cor": "#9cd33b",
+      "titulo": "SQL",
+      "cor": "#421D1F",
       "link_extra": {
-        "text": "Cursos de Data Science na Alura",
-        "url": "https://www.alura.com.br/formacao-data-science"
+        "text": "Cursos gratuito de Bancos de Dados Relacional",
+        "url": "https://www.youtube.com/watch?v=Ofktsne-utM&list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
       },
       "videos": [
         {
-          "titulo": "Teste de Turing",
-          "url": "https://www.youtube.com/watch?v=BaPGU4JWa34"
+          "titulo": "Curso MySQL #01 - O que é um Banco de Dados?",
+          "url": "https://youtu.be/Ofktsne-utM?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
         },
         {
-          "titulo": "O que é Data Science?",
-          "url": "https://www.youtube.com/watch?v=5b9Z8toVaAU&t=9s"
+          "titulo": "Curso MySQL #02 a - Instalando o MySQL com WAMP",
+          "url": "https://youtu.be/5JbAOWJbgIA?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
         },
         {
-          "titulo": "Melhor forma de aprender Python",
-          "url": "https://www.youtube.com/watch?v=Gojqw9BQ5qY"
+          "titulo": "Curso MySQL #02 b - Instalando o XAMPP",
+          "url": "https://youtu.be/R2HrwSQ6EPM?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
         },
         {
-          "titulo": "Como ingressar no mercado de Data Science?",
-          "url": "https://www.youtube.com/watch?v=gxyjGmOV540"
+          "titulo": "Curso MySQL #03 - Criando o primeiro Banco de Dados",
+          "url": "https://youtu.be/m9YPlX0fcJk?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
+        },
+        {
+          "titulo": "Curso MySQL #04 - Melhorando a Estrutura do Banco de Dados",
+          "url": "https://youtu.be/cHLKtALWDos?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
+        },
+        {
+          "titulo": "Curso MySQL #05 - Inserindo Dados na Tabela (INSERT INTO)",
+          "url": "https://youtu.be/NCG9niOlm40?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
+        },
+        {
+          "titulo": "Curso MySQL #06 - Alterando a Estrutura da Tabela (ALTER TABLE e DROP TABLE)",
+          "url": "https://youtu.be/To9qUcEMuY0?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
+        },
+        {
+          "titulo": "Curso MySQL #07 - Manipulando Linhas (UPDATE, DELETE e TRUNCATE)",
+          "url": "https://youtu.be/wXViczeTr6Q?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
+        },
+        {
+          "titulo": "Curso MySQL #08 - Gerenciando Cópias de Segurança MySQL",
+          "url": "https://youtu.be/w6OYS_M7hTM?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
+        },
+        {
+          "titulo": "Curso MySQL #09 - PHPMyAdmin (Parte 1)",
+          "url": "https://youtu.be/OaPMvrA0cA4?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
+        },
+        {
+          "titulo": "Curso MySQL #10 - PHPMyAdmin (Parte 2)",
+          "url": "https://youtu.be/EC_1ZtXsUtA?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
+        },
+        {
+          "titulo": "Curso MySQL #11 - SELECT (Parte 1)",
+          "url": "https://youtu.be/GaOlyL3Uv9M?list=PLHz_AreHm4dkBs-795Dsgvau_ekxg8g1r"
         }
       ]
     },
     {
-      "titulo": "Filmes",
-      "cor": "orange",
-      "videos": [
-        {
-          "titulo": "Interestellar",
-          "url": "https://www.youtube.com/watch?v=frD_IiY_A3E"
-        },
-        {
-          "titulo": "Gattaca",
-          "url": "https://www.youtube.com/watch?v=Dl0tYLbrhhs"
-        },
-        {
-          "titulo": "A Chegada",
-          "url": "https://www.youtube.com/watch?v=rNciXGzYZms"
-        },
-        {
-          "titulo": "Feitiço do Tempo",
-          "url": "https://www.youtube.com/watch?v=zi8d69P9NvI"
-        }
-      ]
-    },
-    {
-      "titulo": "Games",
-      "cor": "red",
+      "titulo": "TypeScript",
+      "cor": "#1D9CDB",
       "link_extra": {
-        "text": "Formação de Jogos na Alura",
-        "url": "https://www.alura.com.br/formacao-jogos-unity"
+        "text": "Mini-curso de TypeScript",
+        "url": "https://www.youtube.com/watch?v=mRixno_uE2o&list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_"
       },
       "videos": [
         {
-          "titulo": "Final Fantasy 7",
-          "url": "https://www.youtube.com/watch?v=I_ATSCTnUD8"
+          "titulo": "01. Introdução",
+          "url": "https://youtu.be/mRixno_uE2o?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_"
         },
         {
-          "titulo": "Assassins Creed Valhalla",
-          "url": "https://www.youtube.com/watch?v=KDfdjB9uL0U"
+          "titulo": "02. Mitos e Verdades",
+          "url": "https://youtu.be/KL1qNPQCz6M?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_"
         },
         {
-          "titulo": "God of War 4",
-          "url": "https://www.youtube.com/watch?v=FyIwEFXOcaE"
+          "titulo": "03. Instalando o compilador e escrevendo primeiro código",
+          "url": "https://youtu.be/-4ZQk8fyCmc?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_"
         },
         {
-          "titulo": "Resident Evil 8",
-          "url": "https://www.youtube.com/watch?v=JSapXD9vxYA"
+          "titulo": "04. Criando e configurando TSconfig",
+          "url": "https://youtu.be/-BKYrctVmmg?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_"
         },
         {
-          "titulo": "Pokémon Let's Go Pikachu/Eevee",
-          "url": "https://www.youtube.com/watch?v=L56q_k2ydrs"
+          "titulo": "05. Types - Mini-curso de TypeScript",
+          "url": "https://youtu.be/voII0wn66k0?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_"
+        },
+        {
+          "titulo": "06. Type Inference - Mini-curso de TypeScript",
+          "url": "https://youtu.be/zyYjns2aYJQ?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_"
+        },
+        {
+          "titulo": "07. Type Aliases e Union - Mini-curso de TypeScript",
+          "url": "https://youtu.be/DqpBryBjs6Q?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_"
+        },
+        {
+          "titulo": "08. Estendendo Type Aliases com Intersection",
+          "url": "https://youtu.be/ZkFLCA_exLI?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_"
+        },
+        {
+          "titulo": "09. Classes",
+          "url": "https://youtu.be/rxpycPZnT6I?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_"
+        },
+        {
+          "titulo": "10. Interfaces",
+          "url": "https://youtu.be/PMhd1ebCGl8?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_"
+        },
+        {
+          "titulo": "11. Type Alias vs Interface",
+          "url": "https://youtu.be/-BKYrctVmmg?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_"
+        },
+        {
+          "titulo": "12. Generics",
+          "url": "https://youtu.be/Zjs7IJuhdaM?list=PLlAbYrWSYTiPanrzauGa7vMuve7_vnXG_"
         }
       ]
     },
     {
-      "titulo": "Aprendendo a aprender tecnologia",
-      "cor": "#6b5be2",
-      "link_extra": {
-        "text": "Curso sobre aprendizado na Alura",
-        "url": "https://alura.com.br/curso-online-aprender-a-aprender-tecnicas-para-seu-autodesenvolvimento"
-      },
+      "titulo": "Day in the life",
+      "cor": "#14A839",
       "videos": [
         {
-          "titulo": "Como estudar melhor?",
-          "url": "https://www.youtube.com/watch?v=Is6c9KSGCbk&feature=youtu.be"
+          "titulo": "Um dia na vida de uma engenheira de software",
+          "url": "https://youtu.be/rqX8PFcOpxA"
         },
         {
-          "titulo": "Faculdade",
-          "url": "https://www.youtube.com/watch?v=jw06H8esyzQ&feature=youtu.be"
+          "titulo": "A DAY IN THE LIFE OF A SOFTWARE ENGINEER",
+          "url": "https://youtu.be/WWggmC8kYZc"
         },
         {
-          "titulo": "Frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
+          "titulo": "A Day In The Life Of Software Engineer | Self Taught",
+          "url": "https://youtu.be/oVqUlz1Rh3U"
         },
         {
-          "titulo": "A mágica do Aprendizado",
-          "url": "https://www.youtube.com/watch?v=oTEXzpfEpPY"
+          "titulo": "A Day in the Life of a Software Engineer in London | STARLING | 2020",
+          "url": "https://youtu.be/oS-m5-XikwA"
         },
         {
-          "titulo": "Como aprender a programar?",
-          "url": "https://www.youtube.com/watch?v=MwCx2qKdbDw&feature=youtu.be"
+          "titulo": "Day In The Life of an Instagram Software Engineer",
+          "url": "https://youtu.be/3YrjvaWlbFA"
+        },
+        {
+          "titulo": "A Day In The Life Of Silicon Valley Engineers",
+          "url": "https://youtu.be/hWFDujYzvbI"
+        },
+        {
+          "titulo": "Day in the Life of a Cybersecurity Student",
+          "url": "https://youtu.be/VxRX2u0Bk2g"
+        },
+        {
+          "titulo": "A Day in the Life of a Software Engineering Student | ConU",
+          "url": "https://youtu.be/ZvZhgF8Hk2U"
         }
       ]
     }
