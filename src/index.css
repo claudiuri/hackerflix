@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 :root {
@@ -28,4 +28,14 @@ a {
   min-height: calc(100vh - var(--bodyPaddingTop));
   display: flex;
   flex-direction: column;
+}
+
+::-webkit-scrollbar { 
+  background-color: #141414; 
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb { 
+  background-color: var(--primary);
+  border-radius: 5px;
 }

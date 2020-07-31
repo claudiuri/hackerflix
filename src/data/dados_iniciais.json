@@ -2,7 +2,6 @@
   "categorias": [
     {
       "titulo": "JavaScript",
-      "link": "https://www.alura.com.br/formacao-front-end",
       "cor": "#DBD61D",
       "link_extra": {
         "text": "Curso gratuito de javascript",
